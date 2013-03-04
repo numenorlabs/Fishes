@@ -15,6 +15,10 @@
 		63BBDF1D16E31C480054D5FC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BBDF1C16E31C480054D5FC /* Default.png */; };
 		63BBDF1F16E31C480054D5FC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BBDF1E16E31C480054D5FC /* Default@2x.png */; };
 		63BBDF2116E31C480054D5FC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BBDF2016E31C480054D5FC /* Default-568h@2x.png */; };
+		63BBDF3916E31E880054D5FC /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BBDF3716E31E880054D5FC /* PageViewController.m */; };
+		63BBDF3A16E31E880054D5FC /* PageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63BBDF3816E31E880054D5FC /* PageViewController.xib */; };
+		63BBDF3E16E31F5E0054D5FC /* FishListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BBDF3C16E31F5E0054D5FC /* FishListViewController.m */; };
+		63BBDF3F16E31F5E0054D5FC /* FishListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63BBDF3D16E31F5E0054D5FC /* FishListViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +35,12 @@
 		63BBDF1E16E31C480054D5FC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		63BBDF2016E31C480054D5FC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		63BBDF2C16E31CDC0054D5FC /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		63BBDF3616E31E880054D5FC /* PageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
+		63BBDF3716E31E880054D5FC /* PageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
+		63BBDF3816E31E880054D5FC /* PageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PageViewController.xib; sourceTree = "<group>"; };
+		63BBDF3B16E31F5E0054D5FC /* FishListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FishListViewController.h; sourceTree = "<group>"; };
+		63BBDF3C16E31F5E0054D5FC /* FishListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FishListViewController.m; sourceTree = "<group>"; };
+		63BBDF3D16E31F5E0054D5FC /* FishListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FishListViewController.xib; sourceTree = "<group>"; };
 		63BBDF4016E3AC5B0054D5FC /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,6 +96,12 @@
 			children = (
 				63BBDF1916E31C480054D5FC /* AppDelegate.h */,
 				63BBDF1A16E31C480054D5FC /* AppDelegate.m */,
+				63BBDF3616E31E880054D5FC /* PageViewController.h */,
+				63BBDF3716E31E880054D5FC /* PageViewController.m */,
+				63BBDF3816E31E880054D5FC /* PageViewController.xib */,
+				63BBDF3B16E31F5E0054D5FC /* FishListViewController.h */,
+				63BBDF3C16E31F5E0054D5FC /* FishListViewController.m */,
+				63BBDF3D16E31F5E0054D5FC /* FishListViewController.xib */,
 			);
 			path = Fishes;
 			sourceTree = "<group>";
@@ -154,6 +170,8 @@
 				63BBDF1D16E31C480054D5FC /* Default.png in Resources */,
 				63BBDF1F16E31C480054D5FC /* Default@2x.png in Resources */,
 				63BBDF2116E31C480054D5FC /* Default-568h@2x.png in Resources */,
+				63BBDF3A16E31E880054D5FC /* PageViewController.xib in Resources */,
+				63BBDF3F16E31F5E0054D5FC /* FishListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +184,8 @@
 			files = (
 				63BBDF1716E31C480054D5FC /* main.m in Sources */,
 				63BBDF1B16E31C480054D5FC /* AppDelegate.m in Sources */,
+				63BBDF3916E31E880054D5FC /* PageViewController.m in Sources */,
+				63BBDF3E16E31F5E0054D5FC /* FishListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
